@@ -26,8 +26,8 @@ Our team ID for this project is *NM2024TMID06548*.
 
 To better understand our code structure and how the application functions, you can watch the following videos:
 
-- *Code Structure Explanation:* [Video Link Placeholder](https://drive.google.com/drive/folders/1pteT8STdObONWwELNDHRK9biItLuiJ-1?usp=drive_link)
-- *Application Demo:* [Demo Video Placeholder](https://drive.google.com/drive/folders/1Y0lmk4XpYophzh0W0Dguum9Bv2S4psfw?usp=drive_link)
+- *Code Structure Explanation:* [Video Link ](https://drive.google.com/drive/folders/1pteT8STdObONWwELNDHRK9biItLuiJ-1?usp=drive_link)
+- *Application Demo:* [Demo Video ](https://drive.google.com/drive/folders/1Y0lmk4XpYophzh0W0Dguum9Bv2S4psfw?usp=drive_link)
 
 ## Features
 
@@ -53,14 +53,8 @@ To better understand our code structure and how the application functions, you c
 ### Steps
 
 1. Clone the repository:
-   bash
-   git clone https://github.com/MOULIMONISHS/Doctor-Appointment-Booking-Using-MERN.git
-
-### Steps
-
-1. Clone the repository:
-   bash
-   git clone https://github.com/MOULIMONISHS/Doctor-Appointment-Booking-Using-MERN.git
+   
+  (https://github.com/sir-zech/BOOK-A-DOCTOR-USING-MERN.git)
    
 
 2. Install dependencies for both backend and frontend:
@@ -76,6 +70,7 @@ To better understand our code structure and how the application functions, you c
    - Inside the .env file update your connection string to coonect with your MongoDB Database. 
    also update it in the config>> ConnectToMongoDB.js files.
 
+     
      MONGO_URI=your_mongodb_connection_string
     
      
@@ -83,19 +78,20 @@ To better understand our code structure and how the application functions, you c
 4. Start the application:
    
    first start the server  and the the client.
+   ---
    bash
    cd server
    npm start
    cd..
    cd client
    npm start
-   
+   ---
 The app should now be running at http://localhost:8000 (frontend) and http://localhost:3000 (backend).
 
 ## Usage
 
 1. *Register/Login:* New users can sign up and create an account, while returning users can log in.
-2. *Search Doctors:* Browse the list of doctors and filter based on specialization, location, etc.
+2. *Searcg Doctors:* Browse the list of doctors and filter based on specialization, location, etc.
 3. *Book Appointments:* Select an available time slot and confirm your appointment.
 4. *Manage Profile:* Doctors can update their availability, and users can view or manage their booking history.
 
@@ -109,4 +105,6 @@ This project was developed as part of our academic program. Here are our team me
 - *Nimalan R*
 - *Srivatsan C.B*
 
-Each team member contributed to various parts of the project, from backend development to UI design, making this project a team effort
+Each team member contributed to various parts of the project, from backend development to UI design, making this project a team effort.
+
+---
