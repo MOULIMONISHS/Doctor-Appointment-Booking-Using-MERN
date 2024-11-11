@@ -74,3 +74,6 @@ root
 This Doctor Appointment Booking System is designed to streamline the appointment process for patients and doctors while allowing administrators to oversee platform activities. The project demonstrates a comprehensive use of full-stack development technologies to create a robust, user-friendly application.
 
 For any additional guidance or code reference, consult the project folder
+project Demo : https://drive.google.com/drive/folders/1Y0lmk4XpYophzh0W0Dguum9Bv2S4psfw?usp=sharing
+Souece code in Drive : https://drive.google.com/drive/folders/1k8dAHWUpJ1poLIjZK_V4U3Pl5u8DkWo1?usp=drive_link
+
