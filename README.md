@@ -54,13 +54,13 @@ To better understand our code structure and how the application functions, you c
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/book-a-doctor.git
+   git clone https://github.com/MOULIMONISHS/Doctor-Appointment-Booking-Using-MERN.git
 
 ### Steps
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/book-a-doctor.git
+   git clone https://github.com/MOULIMONISHS/Doctor-Appointment-Booking-Using-MERN.git
    
 
 2. Install dependencies for both backend and frontend:
