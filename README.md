@@ -1,79 +1,112 @@
-**Doctor Appointment Booking System**
+# Book a Doctor - Doctor Appointment Booking App
 
-This project is a Doctor Appointment Booking System with three main types of users: Customers, Doctors, and Admin. Built with a full-stack approach using Node.js, Express.js, MongoDB, and React.js, it allows users to book, manage, and monitor doctor appointments.
+Book a Doctor is a MERN (MongoDB, Express, React, Node.js) Stack application for scheduling doctor appointments easily and efficiently. Users can browse through available doctors, check their availability, and book appointments as per their convenience.
 
-Table of Contents
-Project Demo
-Features
-Technologies Used
-Project Setup
-Frontend Setup
-Backend Setup
-Database Setup
-Milestones
-Folder Structure
-Conclusion
-Project Demo
-The project includes a complete demo to showcase application functionalities, from user registration and login to booking, managing, and tracking appointments.
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Code Structure & Demo Videos](#code-structure--demo-videos)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Team](#team)
+- [License](#license)
 
-Features
-Customers can create an account and log in, view available doctors, book an appointment by selecting a doctor and providing relevant details, view booking status, receive updates on appointment approval, and cancel or reschedule appointments.
+---
 
-Doctors register and get approval from the admin, manage and view all booked appointments, and approve or reject customer appointments.
+## About the Project
 
-The Admin monitors and manages all users and doctors, approves doctor registrations, enforces policies, maintains user data, and oversees the platform's operation.
+This Doctor Appointment Booking System is designed to streamline the appointment scheduling process for patients and doctors. The application provides an intuitive user interface, with real-time updates on doctor availability, and an organized booking process.
 
-**Technologies Used**
-Frontend technologies include React.js, Axios, Material UI, Ant Design, and Bootstrap. Backend technologies include Node.js, Express.js, Mongoose, and JWT. The database used is MongoDB.
+### Team ID
+Our team ID for this project is *NM2024TMID06548*.
 
-Project Setup
-Frontend Setup
-To set up the frontend, navigate to the frontend folder by running cd frontend, then install dependencies with npm install. To start the frontend server, use npm start. The application will be accessible at http://localhost:3000.
 
-**Backend Setup**
-For the backend setup, navigate to the backend folder with cd backend, install the dependencies by running npm install, and start the backend server with npm start. The backend server will be accessible at http://localhost:8001.
+## Code Structure & Demo Videos
 
-**Database Setup**
-Download and install MongoDB. Create a new database named doctor_appointment, and connect the backend to MongoDB by updating the MONGO_URI in the .env file.
+To better understand our code structure and how the application functions, you can watch the following videos:
 
-Milestones
-**Milestone 1: Project Setup and Configuration**
-Begin by creating the project structure with separate folders for frontend and backend. Install essential libraries for each part. For the frontend, use React.js, Material UI, and Bootstrap, and for the backend, use Express, Mongoose, JWT, and Multer.
+- *Code Structure Explanation:* [Video Link Placeholder](https://drive.google.com/drive/folders/1pteT8STdObONWwELNDHRK9biItLuiJ-1?usp=drive_link)
+- *Application Demo:* [Demo Video Placeholder](https://drive.google.com/drive/folders/1Y0lmk4XpYophzh0W0Dguum9Bv2S4psfw?usp=drive_link)
 
-**Milestone 2: Backend Development**
-Set up an Express server with routes for user authentication, booking, and doctor management. Define data models for users, doctors, and appointments. Implement user authentication using JWT, along with session handling. Admin and doctor functionalities are established for managing users and appointments.
+## Features
 
-**Milestone 3: Database Schema**
-The database schema includes User, Appointment, Complaint, and Chat schemas. Users can include customers, doctors, and admins. Appointments are recorded with associated details and status. Complaints allow users to register feedback, and the Chat schema supports message exchanges related to appointments.
+- *User Registration & Authentication:* Secure user login and registration process.
+- *Doctor Profile Management:* Doctors can manage their profiles and set availability.
+- *Appointment Booking:* Patients can browse through doctors, view their profiles, and book available appointment slots.
+- *Real-Time Notifications:* Users receive notifications for appointment confirmations or changes.
+- *Admin Dashboard:* Admin access to manage users and doctors, view all bookings, and oversee the system's functionality.
 
-**Milestone 4: Frontend Development**
-Set up the React application, organize reusable UI components, and design the overall layout. Define routes for each component and integrate API requests for dynamic data.
+## Tech Stack
 
-**Milestone 5: Project Implementation**
-Upon completion of development, deploy the application and perform testing. Conduct user interface checks to ensure smooth navigation, verify feature functionality, and fix any bugs.
+- *Frontend:* React.js, Redux
+- *Backend:* Node.js, Express.js
+- *Database:* MongoDB
+- *Authentication:* JSON Web Tokens (JWT)
+- *Styling:* CSS, Bootstrap
 
-**Folder Structure**
-The project structure is organized as follows:
 
-java
-Copy code
-root
-├── frontend
-│   ├── public
-│   ├── src
-│   └── package.json
-├── backend
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   └── package.json
-├── .env
-└── README.md
+### Prerequisites
+- Node.js
+- MongoDB
 
-**Conclusion**
-This Doctor Appointment Booking System is designed to streamline the appointment process for patients and doctors while allowing administrators to oversee platform activities. The project demonstrates a comprehensive use of full-stack development technologies to create a robust, user-friendly application.
+### Steps
 
-For any additional guidance or code reference, consult the project folder
-project Demo : https://drive.google.com/drive/folders/1Y0lmk4XpYophzh0W0Dguum9Bv2S4psfw?usp=sharing
-Souece code in Drive : https://drive.google.com/drive/folders/1k8dAHWUpJ1poLIjZK_V4U3Pl5u8DkWo1?usp=drive_link
+1. Clone the repository:
+   bash
+   git clone https://github.com/your-username/book-a-doctor.git
 
+### Steps
+
+1. Clone the repository:
+   bash
+   git clone https://github.com/your-username/book-a-doctor.git
+   
+
+2. Install dependencies for both backend and frontend:
+   bash
+   cd book-a-doctor
+   npm install
+   cd client
+   npm install
+   npm install react-scripts
+   
+
+3. Set up environment variables for the backend:
+   - Inside the .env file update your connection string to coonect with your MongoDB Database. 
+   also update it in the config>> ConnectToMongoDB.js files.
+
+     MONGO_URI=your_mongodb_connection_string
+    
+     
+
+4. Start the application:
+   
+   first start the server  and the the client.
+   bash
+   cd server
+   npm start
+   cd..
+   cd client
+   npm start
+   
+The app should now be running at http://localhost:8000 (frontend) and http://localhost:3000 (backend).
+
+## Usage
+
+1. *Register/Login:* New users can sign up and create an account, while returning users can log in.
+2. *Search Doctors:* Browse the list of doctors and filter based on specialization, location, etc.
+3. *Book Appointments:* Select an available time slot and confirm your appointment.
+4. *Manage Profile:* Doctors can update their availability, and users can view or manage their booking history.
+
+
+## Team
+
+This project was developed as part of our academic program. Here are our team members:
+
+- *Naveen B*
+- *Mouli Monish S*
+- *Nimalan R*
+- *Srivatsan C.B*
+
+Each team member contributed to various parts of the project, from backend development to UI design, making this project a team effort
